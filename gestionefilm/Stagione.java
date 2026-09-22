@@ -56,9 +56,9 @@ public class Stagione {
         return sceneggiatore;
     }
 
-    @Override
+     @Override
     public String toString() {
-        return "Stagione " + numStagione + " [Episodi: " + numEpisodi + 
+        return "Stagione " + NumStagione + " [Episodi: " + NumEpisodi + 
                ", Sceneggiatore: " + sceneggiatore + ", Trama: " + trama + "]";
     }
 }
