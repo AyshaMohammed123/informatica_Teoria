@@ -20,7 +20,14 @@ public class Materiale extends Object{
         this.titolo = titolo;
       }
 
-      public Materiale(){
-        super();
+      public String descrizione(){
+        return codice+ " - " + titolo;
       }
+
+      @Override
+      public String toString() {
+        return "codice=" + codice + ", titolo=" + titolo;
+      }
+
+
 }
